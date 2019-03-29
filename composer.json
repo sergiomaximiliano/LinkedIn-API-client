@@ -1,15 +1,15 @@
 {
     "name": "sergiomaximiliano/linkedln-api-client",
     "type": "library",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "LinkedIn API client. Handles OAuth, CSRF protection. Easy to implement and extend. This is a standalone library for any composer project.",
     "keywords": ["LinkedIn", "OAuth", "API", "Client", "SDK"],
     "homepage": "",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tobias Nyholm",
-            "email": "tobias@happyr.com"
+            "name": "Maximialino Flores",
+            "email": "sergio@hiringroom.com"
         }
     ],
     "require": {
@@ -32,10 +32,5 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-ci": "vendor/bin/phpunit --coverage-text --coverage-clover=build/coverage.xml"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.1.x-dev"
-        }
     }
 }
