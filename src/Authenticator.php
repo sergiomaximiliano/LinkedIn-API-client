@@ -155,6 +155,7 @@ class Authenticator implements AuthenticatorInterface
             'response_type' => 'code',
             'client_id' => $this->appId,
             'state' => $this->getStorage()->get('state'),
+/*             'scope' => 'r_liteprofile', */
             'redirect_uri' => null,
         ], $options);
 
